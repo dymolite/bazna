@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: 0 5%;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+header {
+    background-image: url(https://www.devsnews.com/template/bazna/bazna/img/slider/slider-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+.container ul li {
+    display: inline-block;
+    padding-right: 2rem;
+}
+ul li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: .2s; 
+}
+.container ul li a.home, ul li a:hover {
+    color: #FD6500;
+}
+.container ul li a.bars {
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+.text-white {
+    color: #fff;
+}
+.text-orange {
+    color: #FD6500;
+}
+ul li p {
+    font-size: 18px;
+}
+div.slogan {
+    padding: 8rem 0;
+    width: 50%;
+}
+.slogan h1 {
+    font-size: 125px;
+}
+.slogan p {
+    padding: 3rem 0;
+    font-size: 20px;
+}
+.btn {
+    border:0;
+    border-radius: 26px;
+    background-color: #FD6500;
+    padding: 15px 20px;
+}
+#about {
+    display: flex;
+    padding: 6rem 7%;
+}
+
+section .item-1{
+    width: 35%;
+    padding-right:5.5rem;
+}
+section .item-2 {
+    width: 65%;
+    padding-right:5.5rem;
+}
+.item-1 p {
+    padding-top: 1rem;
+    font-size: 26px;
+    font-weight: bold;
+    row-gap: 10px;
+}
+.item-2 h4 {
+    font-size: 24px;
+    padding-bottom: 2.5rem;
+}
+.item-2 h4, .item-2 p{
+    line-height: 2rem;
+}
+.text-darkgray {
+    color: #262626;
+}
